@@ -2,27 +2,26 @@
 It's a terminal monitoring tool to monitor CPU, RAM, HDD
 
 ## Tested environment
-1. Linux
-a. Archlinux
+#### Linux:
+* Archlinux
 
 ## Install
-0. [Install](https://www.rust-lang.org/en-US/install.html) rust lang:
+* [Install](https://www.rust-lang.org/en-US/install.html) rust lang:
 ```bash
 curl https://sh.rustup.rs -sSf | sh
 ```
 
-1. Clone the repo:
-```rust
+* Clone the repo:
+```bash
 git clone https://github.com/Godod/monitoring.git
 ```
 
-2. Build the application:
+* Build the application:
 ```bash
 cd monitoring/
 cargo build --release
 ```
-
-3. Program path
+* Program path
 ```bash
 target/release/monitoring
 ```
@@ -33,3 +32,4 @@ target/release/monitoring
 3. [regex](https://github.com/rust-lang/regex) = "0.2"
 4. [term-painter](https://github.com/LukasKalbertodt/term-painter) = "0.2"
 5. [term](https://github.com/Stebalien/term) = "0.4"
+
