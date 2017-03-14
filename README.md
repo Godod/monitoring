@@ -1,6 +1,8 @@
 # Monitoring tool
 It's a terminal monitoring tool to monitor CPU, RAM, HDD
 
+![Monitoring](/img/monitoring.png "Monitoring")
+
 ## Tested environment
 #### Linux:
 * Archlinux
@@ -32,4 +34,3 @@ target/release/monitoring
 3. [regex](https://github.com/rust-lang/regex) = "0.2"
 4. [term-painter](https://github.com/LukasKalbertodt/term-painter) = "0.2"
 5. [term](https://github.com/Stebalien/term) = "0.4"
-
